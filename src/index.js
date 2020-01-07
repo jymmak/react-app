@@ -6,4 +6,11 @@ import './global.css'
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Badge
+     firstName="Jymma" 
+lastName ="Mogollón" 
+avatar = "https://www.gravatar.com/avatar?d=identicon"
+jobTitle ="Front-end" 
+twitter="mc"
+ 
+/>, container);
