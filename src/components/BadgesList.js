@@ -11,22 +11,19 @@ class BadgesList extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="column col-sm-6 offset-sm-3">
-                                    <li key={badge.id} className="BadgesListItem">
-                                        <img className="BadgesListItem__avatar" src={badge.avatarUrl} alt="avatar" />
-                                        <div>
-                                            <h4 className="BadgeList-name">{badge.firstName}&nbsp;&nbsp;
-                                        {badge.lastName}</h4>
+                                    <li key={badge.id} >
+                                        <div className="BadgesListItem">
 
-                                            <span className="BadgeList-twiter">
-                                                {badge.twitter}
-                                            </span>
-                                            <br />
-                                            <span className="jobTitle">
+                                            <img className="BadgesListItem__avatar" src={badge.avatarUrl} alt={badge.firstName} />
+                                            <div>
+                                                <strong>
+                                                    {badge.firstName} {badge.lastName}
+                                                </strong>
+                                                <br />@{badge.twitter}
+                                                <br />
                                                 {badge.jobTitle}
-                                            </span>
-
+                                            </div>
                                         </div>
-
                                     </li>
                                 </div>
                             </div>
