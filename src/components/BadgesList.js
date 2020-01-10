@@ -1,20 +1,22 @@
 import React from 'react'
 import '../styles/BadgesList.css';
-import {Link}  from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Gravatar from './Gravatar'
+
 
 class BadgesList extends React.Component {
     render() {
-if(this.props.badges.length === 0){
-    return (
-        <div>
-            <h3>
-                No encontramos ningún badge
+        if (this.props.badges.length === 0) {
+            return (
+                <div>
+                    <h3>
+                        No encontramos ningún badge
             </h3>
 
-            <Link className="btn btn-primary" to="/badges/new">Create new badge</Link>
-        </div>
-    )
-}
+                    <Link className="btn btn-primary" to="/badges/new">Create new badge</Link>
+                </div>
+            )
+        }
 
 
         return (
@@ -26,8 +28,8 @@ if(this.props.badges.length === 0){
                                 <div className="column col-sm-6 offset-sm-3">
                                     <li key={badge.id} >
                                         <div className="BadgesListItem">
+                                            <Gravatar className="Badge__avatar" email={badge.email} alt={`${badge.firstName}${badge.lastName}`} />
 
-                                            <img className="BadgesListItem__avatar" src={badge.avatarUrl} alt={badge.firstName} />
                                             <div>
                                                 <strong>
                                                     {badge.firstName} {badge.lastName}
