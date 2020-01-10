@@ -1,5 +1,5 @@
 import React from 'react';
-import header from '../assets/images/badge-header.svg'
+import header from '../assets/images/platziconf-logo.svg'
 import '../styles/BadgeNew.css'
 import Badge from '../components/Badge'
 import BadgeForm from '../components/BadgeForm'
@@ -34,7 +34,7 @@ class BadgeNew extends React.Component {
             <React.Fragment>
 
                 <div className="BadgeNew__hero">
-                    <img className="img-fluid" src={header} alt="" />
+                    <img className="BadgeNew__hero-image img-fluid" src={header} alt="" />
                 </div>
                 <div className="container">
 
