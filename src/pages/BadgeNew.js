@@ -14,6 +14,7 @@ class BadgeNew extends React.Component {
             email: "",
             jobTitle: "",
             twitter: "",
+            avatarUrl:""
 
         }
     };
@@ -43,11 +44,12 @@ class BadgeNew extends React.Component {
                         <div className="col-6">
 
                             <Badge
-                                firstName={this.state.form.firstName}
-                                lastName={this.state.form.lastName}
-                                jobTitle={this.state.form.jobTitle}
-                                twitter={this.state.form.twitter}
-                                avatar={this.state.form.avatar} />
+                                firstName={this.state.form.firstName || 'Nombres'}
+                                lastName={this.state.form.lastName || 'Apellidos'}
+                                jobTitle={this.state.form.jobTitle || 'Trabajo'}
+                                twitter={this.state.form.twitter || 'Twitter'}
+                                email={this.state.form.email || 'Email '}
+                                avatarUrl='https://www.gravatar.com/avatar/d554ed2d6492c58ee28b9155b5d5a1da?d=identicon' />
 
                         </div>
                         <div className="col-6">
