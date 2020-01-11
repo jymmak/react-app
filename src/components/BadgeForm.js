@@ -30,7 +30,7 @@ class BadgeForm extends React.Component {
         )
     };
 
-   
+
 
     render() {
 
@@ -88,6 +88,12 @@ class BadgeForm extends React.Component {
                         className="btn btn-primary">
                         Save
                     </button>
+
+                    {this.props.error && <div className=" alert alert-danger mb-3" role="alert">{this.props.error.message}</div>}
+
+
+
+
                 </form>
             </React.Fragment>
 
