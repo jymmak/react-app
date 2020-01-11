@@ -1,12 +1,12 @@
 import React from 'react';
 import header from '../assets/images/platziconf-logo.svg'
-import '../styles/BadgeNew.css'
+import '../styles/BadgeEdit.css'
 import Badge from '../components/Badge'
 import BadgeForm from '../components/BadgeForm'
 import api from '../api'
 import PageLoading from '../components/PageLoading';
 
-class BadgeNew extends React.Component {
+class BadgeEdit extends React.Component {
     state = {
         loading: false,
         error: null,
@@ -41,7 +41,7 @@ class BadgeNew extends React.Component {
         try {
             await api.badges.create(this.state.form);
             this.setState({ loading: false });
-this.props.history.push('/badges')
+            this.props.history.push('/badges')
 
 
         } catch (error) {
@@ -58,8 +58,8 @@ this.props.history.push('/badges')
         return (
             <React.Fragment>
 
-                <div className="BadgeNew__hero">
-                    <img className="BadgeNew__hero-image img-fluid" src={header} alt="" />
+                <div className="BadgeEdit__hero">
+                    <img className="BadgeEdit__hero-image img-fluid" src={header} alt="" />
                 </div>
                 <div className="container pb-5">
 
@@ -95,4 +95,4 @@ this.props.history.push('/badges')
     }
 }
 
-export default BadgeNew
+export default BadgeEdit

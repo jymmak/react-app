@@ -55,33 +55,6 @@
       "id": "u-ZpoNE"
     },
     {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "30FvTK9"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "dvGrAyC"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "jkmogollon.cp@gmail.com",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "3NlhYOp"
-    },
-    {
       "firstName": "Luis Alberto",
       "lastName": "Velarde",
       "email": "luis2512@gmail.com",
@@ -89,60 +62,6 @@
       "twitter": "lv",
       "avatarUrl": "",
       "id": "hQS2VsR"
-    },
-    {
-      "firstName": "Silvana",
-      "lastName": "Sucasaire",
-      "email": "cargosisima@gmail.com",
-      "jobTitle": "ama de casa",
-      "twitter": "silvana",
-      "avatarUrl": "",
-      "id": "H9XOknO"
-    },
-    {
-      "firstName": "Silvana",
-      "lastName": "Sucasaire",
-      "email": "cargosisima@gmail.com",
-      "jobTitle": "ama de casa",
-      "twitter": "silvana",
-      "avatarUrl": "",
-      "id": "edD27nh"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "N6ZKMgy"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "jOraRV-"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "Dw_Etw2"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "lZD9GOQ"
     },
     {
       "firstName": "Jean",
@@ -153,33 +72,7 @@
       "avatarUrl": "",
       "id": "tPrT_tA"
     },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "IpQbPyx"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "ibGC9e5"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "UaTdZ-S"
-    },
+    
     {
       "firstName": "Karina",
       "lastName": "Perez",
@@ -188,78 +81,6 @@
       "twitter": "djejddjes",
       "avatarUrl": "",
       "id": "3TZmIc6"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "nWv1tCa"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "OmDd636"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "EpOsbhW"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "W4Uy2nd"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "meT94_u"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "6jY-Pkh"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "qZU0wKF"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "jobTitle": "",
-      "twitter": "",
-      "avatarUrl": "",
-      "id": "kzxQxKY"
     }
   ]
 }
