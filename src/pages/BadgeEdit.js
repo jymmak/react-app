@@ -113,4 +113,4 @@ class BadgeEdit extends React.Component {
     }
 }
 
-export default BadgeEdit
+export default BadgeEdit;
