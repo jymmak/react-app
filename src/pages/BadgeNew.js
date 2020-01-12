@@ -77,6 +77,7 @@ this.props.history.push('/badges')
 
                         </div>
                         <div className="col-6">
+                        <h1>New Atttendant</h1>
                             <BadgeForm
                                 onChange={this.handleChange}
                                 onSubmit={this.handleSubmit}

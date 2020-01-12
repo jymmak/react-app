@@ -72,15 +72,23 @@
       "avatarUrl": "",
       "id": "tPrT_tA"
     },
-    
     {
       "firstName": "Karina",
       "lastName": "Perez",
-      "email": "ejfdf@hotmail.com",
-      "jobTitle": "enfermera",
+      "email": "karina_2131@hotmail.com",
+      "jobTitle": "Psicóloga",
       "twitter": "djejddjes",
       "avatarUrl": "",
       "id": "3TZmIc6"
+    },
+    {
+      "id": "WMV6c7n",
+      "firstName": "Pablo",
+      "lastName": "Sucasaire",
+      "email": "maryce.cardoza@gmail.com",
+      "jobTitle": "Político",
+      "twitter": "pablo.s",
+      "avatarUrl": ""
     }
   ]
 }
