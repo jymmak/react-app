@@ -35,6 +35,20 @@ class BadgeDetailsContainer extends React.Component {
     handleCloseModal = e => {
         this.setState({ modalIsOpen: false })
     }
+    handleDeleteBadge = async () => {
+        this.setState({ loading: true, error: null });
+        try {
+            await api.badges.remove(
+                this.props.match.params.badgeId
+            )
+            this.setState({ loading: false });
+            this.props.history.push('/badges');
+
+
+        } catch (error) {
+            this.setState({ loading: false, error: error });
+        }
+    }
     render() {
         if (this.state.loading) {
             return <PageLoading />;
